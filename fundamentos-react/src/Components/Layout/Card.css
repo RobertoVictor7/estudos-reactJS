@@ -1,0 +1,32 @@
+.card {
+    border: 3px solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.content {
+    background-color:grey;
+    padding: 20px;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
